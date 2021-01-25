@@ -1,0 +1,5 @@
+deposit = float(input())
+maturity = int(input())
+int_rate = float(input())
+profitability = deposit + (maturity*((deposit*(int_rate/100))/12))
+print(profitability)
